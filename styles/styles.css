@@ -25,6 +25,7 @@ a {
 }
 a:hover, a:visited, a:active, a:focus {
   color:#F0C849;
+  text-decoration:underline;
 }
 h1 {
   color:#fff;
@@ -97,6 +98,7 @@ section a, section a:visited {
 section a:hover, section a:active, section a:focus {
   background-color:#D3422E;
   color:#fff;
+  text-decoration:none;
 }
 aside {
   width:100%;
@@ -140,4 +142,12 @@ footer {
 }
 footer a {
   color:#F2C779;
+}
+.offscreen {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
